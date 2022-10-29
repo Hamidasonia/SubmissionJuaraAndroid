@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4d2100</color>
+    <color name="colorPrimaryDark">#251900</color>
+    <color name="colorAccent">#795f39</color>
+
+    <color name="btnSignUp">#39796b</color>
+    <color name="btnSignActive">#a9d440</color>
+    
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+
+    <!-- screen background Intro Slider-->
+    <color name ="bg_screen1">#3372d7</color>
+    <color name ="bg_screen2">#ffffff</color>
+    <color name ="bg_screen3">#6943c9</color>
+    <color name ="bg_screen4">#a1da67</color>
+
+    <!-- dots active color -->
+    <color name ="dot_active">#000000</color>
+
+    <!-- dots inactive color -->
+    <color name ="dot_inactive">#cccccc</color>
+</resources>

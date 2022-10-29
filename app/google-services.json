@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "666227701236",
+    "firebase_url": "https://androidcallit.firebaseio.com",
+    "project_id": "androidcallit",
+    "storage_bucket": "androidcallit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666227701236:android:1a28f0d026f23c48",
+        "android_client_info": {
+          "package_name": "hamidasonia.com.androidcallit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666227701236-tk9fcin85ppo44cvd2id6c4t5ejpappe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hamidasonia.com.androidcallit",
+            "certificate_hash": "9a7db2330fc055bcf132afa19cb65c3e015a371e"
+          }
+        },
+        {
+          "client_id": "666227701236-pp6ejgnsu03a0dnd0e9fjgijbo3mt4af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBme_P2mmXrPY5JQd1n3L4j9ykDUKRrb8g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666227701236-pp6ejgnsu03a0dnd0e9fjgijbo3mt4af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

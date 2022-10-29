@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AndroidCallit</string>
+    <string name="slogan">CALLit adalah sebuah aplikasi penyedia layanan jasa untuk melayani dalam kebutuhan di bidang IT.</string>
+
+
+    <!-- Tambahan string untuk Intro slider -->
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Selamat datang di CallIT</string>
+    <string name="desc_slide1">Membantu mengatasi masalah anda di bidang IT</string>
+    <string name="title_slide2">Kirim Pesan</string>
+    <string name="desc_slide2">Kirim pesan kepada kami melalui GMail anda</string>
+    <string name="title_slide3">We Team</string>
+    <string name="desc_slide3">Pilih teknisi atau asisten IT yang anda butuhkan</string>
+    <string name="title_slide4">Call</string>
+    <string name="desc_slide4">Hubungi langsung asisten IT pilihan anda</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

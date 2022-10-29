@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="hamidasonia.com.androidcallit.SendMail"
+    tools:showIn="@layout/activity_send_mail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:id="@+id/edt_kepada_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="callit.application@gmail.com "
+                android:maxLength="100"
+                android:minLines="1" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edt_subjek_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Subjek" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edt_isi_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pesan"
+                android:lines="10" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f32d27"
+            android:text="Kirim"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/btn_send_send_mail"
+            android:onClick="kirim"/>
+
+
+
+
+
+    </LinearLayout>
+    result cache dari kiriman bundle
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:id="@+id/result_email"/>
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:id="@+id/result_password"/>
+
+</LinearLayout>
